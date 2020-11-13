@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import math
 games = pd.read_csv(r'C:\Users\njfur\Desktop\Kaggle\nfl-big-data-bowl-2021\games.csv', index_col = 'gameId')
 players =pd.read_csv(r'C:\Users\njfur\Desktop\Kaggle\nfl-big-data-bowl-2021\players.csv', index_col = 'nflId')
-plays =pd.read_csv(r'C:\Users\njfur\Desktop\Kaggle\nfl-big-data-bowl-2021\plays.csv', index_col = ['gameId', 'playId'])
+plays = pd.read_csv(r'C:\Users\njfur\Desktop\Kaggle\nfl-big-data-bowl-2021\plays.csv', index_col = ['gameId', 'playId'])
 week1 = pd.read_csv(r'C:\Users\njfur\Desktop\Kaggle\nfl-big-data-bowl-2021\week1.csv')
 week2 = pd.read_csv(r'C:\Users\njfur\Desktop\Kaggle\nfl-big-data-bowl-2021\week2.csv')
 week3 = pd.read_csv(r'C:\Users\njfur\Desktop\Kaggle\nfl-big-data-bowl-2021\week3.csv')
